@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       0d5150d9-3b9d-494f-b4e5-82d106fae9d6
+:END:
+#+title: Metodos_HTTP
+#+date: [2022-08-15 lun 09:57]
+*   MÉTODOS HTTP
+
+Los métodos http son una forma de comunicación entre el CLIENTE Y EL NAVEGADOR.
+A través de cada solicitud HTTP el cliente es capaz de pedirle al servidor que realize una acción determinada.
+
+**  [[id:da48abc6-b75b-438c-98b4-5189b99af347][GET]]
+**  [[id:e6f744d7-94a8-4110-a578-32096b294abf][POST]]
+**  [[id:592fda9e-c1dc-4a17-a525-cc4bf7a130cd][PUT]]
+**  [[id:6efa74d4-300c-4d7f-9cbc-d4e2006ef566][PATCH]]
+**  [[id:5d31eab8-9351-42c7-8a0e-ab363f929964][DELETE]]

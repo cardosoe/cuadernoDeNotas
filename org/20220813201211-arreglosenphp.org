@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       8449ed7b-3e12-46e8-89b5-a0fa5af5dbb0
+:END:
+#+title: Arreglos_en_PHP
+#+date: [2022-08-13 sáb 20:12]
+
+*   ARREGLOS EN PHP (ARRAYS)
+
+Un arreglo es una variable que puede albergar varios valores a la vez.
+
+Veamos dos formas de declarar un arreglo:
+
+Declarando los valores dentro de corchetes [ ]
+
+#+begin_src php
+
+$edades = [20, 18, 40];
+
+echo "Una de las edades es " . $edades[1] . " " . "años";
+
+#+end_src
+
+#+RESULTS:
+: Una de las edades es 18 años
+
+Declarando los valores dentro de la función array()
+
+#+begin_src php
+
+$edades = array(20,18,40);
+
+echo "Una de las edades es " . $edades[1] . " " . "años";
+
+#+end_src
+
+#+RESULTS:
+: Una de las edades es 18 años

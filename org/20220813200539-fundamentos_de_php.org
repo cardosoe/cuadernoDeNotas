@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       d86e0d15-e8d3-4bc1-8789-df9a400b9c32
+:END:
+#+title: Fundamentos_de_PHP
+#+date: [2022-08-13 sáb 20:05]

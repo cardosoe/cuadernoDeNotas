@@ -1,0 +1,163 @@
+:PROPERTIES:
+:ID:       f3d8a13b-1feb-4c80-aeb1-e78fa3e63355
+:END:
+#+title: ESTUDIO
+#+filetags: Project
+* Goals
+- [ ]  Aprender a programar con PHP
+- [ ]  Armar proyectos para portfolio
+- [ ]  Armar portfolio
+- [ ]  Conseguir trabajo
+
+* Tasks
+
+** BACKEND CON PHP [0/4]           :@php:@desarrollo:@proyecto:@Laravel:@Symfony:@wordpress:@woocommerce:@api:@REST:@vue.js:@testing:
+
+*** TODO [ ] CURSO BÁSICO DE PHP [3/12]
+:PROPERTIES:
+:ORDERED:  t
+:END:
+:LOGBOOK:
+CLOCK: [2022-09-20 mar 09:26]--[2022-09-20 mar 12:19] =>  2:53
+CLOCK: [2022-09-18 mié 23:33]--[2022-09-19 lun 00:44] =>  1:11
+CLOCK: [2022-08-30 mar 14:50]--[2022-08-30 mar 15:55] =>  1:05
+CLOCK: [2022-08-17 mié 18:08]--[2022-08-17 mié 19:16] =>  1:08
+CLOCK: [2022-08-17 mié 14:44]--[2022-08-17 mié 15:26] =>  0:42
+CLOCK: [2022-08-17 mié 12:55]--[2022-08-17 mié 13:25] =>  0:30
+CLOCK: [2022-08-17 mié 11:55]--[2022-08-17 mié 12:40] =>  0:45
+CLOCK: [2022-08-17 mié 07:57]--[2022-08-17 mié 08:14] =>  0:17
+CLOCK: [2022-08-17 mié 00:44]--[2022-08-17 mié 01:14] =>  0:30
+CLOCK: [2022-08-16 mar 19:10]--[2022-08-16 mar 20:11] =>  1:01
+CLOCK: [2022-08-15 lun 22:52]--[2022-08-16 mar 00:40] =>  1:48
+:END:
+#+BEGIN: clocktable :scope subtree :maxlevel 2
+#+CAPTION: Clock summary at [2022-09-20 mar 12:20]
+| Headline   | Time  |
+|------------+-------|
+| *Total time* | *11:50* |
+|------------+-------|
+#+END:
+
+     - [X] INSTALACIÓN, FUNDAMENTOS Y OPERADORES.
+       - [X] [[id:ce495b5b-c99d-434e-88af-1f4ee17b1bc1][Que_Es_Un_Programa]]
+       - [X] [[id:0d5150d9-3b9d-494f-b4e5-82d106fae9d6][Metodos_HTTP]]
+       - [X] [[id:d86e0d15-e8d3-4bc1-8789-df9a400b9c32][Fundamentos_de_PHP]]
+       - [X] [[id:509a2795-034d-4e45-9985-719da42bdf97][Sintaxis_en_PHP]]
+       - [X] [[id:1e9826a4-c922-4bbb-877c-a1911f90c6e4][Debugging]]
+       - [X] [[id:c63028b3-f9b4-4c73-911c-00edfae32a5e][Comentarios]]
+       - [X] [[id:a345db32-3c90-4a35-a1ea-86a5ac83d0e8][Variables_en_PHP]]
+       - [X] [[id:e44dc017-bb75-4fc5-ae08-704e872d4ac3][Constantes_en_PHP]]
+       - [X] [[id:0f43128d-d3e6-49f4-8207-bef5dcec8044][Tipos_De_Datos_en_PHP]]
+       - [X] [[id:cbd47455-4707-48dd-b139-f800d9aafc89][Casting_en_PHP]]
+       - [X] [[id:71c00a11-b5cc-4b8f-a301-cdd6506ead3f][Operadores_logicos_en_PHP]]
+       - [X] [[id:c59260df-29a4-4c82-af24-8556924ce251][Operadores_matemáticos_en_PHP]]
+       - [X] [[id:09e29f8f-6090-474e-b8de-23aafbd1f815][Operadores_relacionales_en_PHP]]
+       - [X] [[id:00f624ed-b54a-4926-aa36-45728fe4647c][Otros_operadores_en_PHP]]
+       - [X] [[id:14bf88be-f96f-489f-b02f-615b73afff16][Precedencia_de_operadores_en_PHP]]
+     - [X] ARREGLOS, FUNCIONES Y ESTRUCTURAS DE CONTROL.
+       - [X] [[id:8449ed7b-3e12-46e8-89b5-a0fa5af5dbb0][Arreglos_en_PHP]]
+       - [X] [[id:5a18809f-d8af-4cb9-88b4-54c71e9e74d3][Arreglos_asociativos]]
+       - [X] [[id:b3c0f335-b57c-4859-be8f-edc572d8bfb5][Manipular_arreglos]]
+       - [X] [[id:20e6b287-db78-4728-bc56-12c72d7dde75][Funciones_en_PHP]]
+       - [X] [[id:ad5c6b02-962b-40d0-ae32-bde6d9708866][Estructuras_de_control_en_PHP]]
+     - [X] CURSO PRÁCTICO DE PHP
+     - [-] INTEGRACIÓN DE PHP CON HTML
+       - [X] [[id:47e6ca4b-9a17-43ec-b4d8-aaab7a1e664f][Pasar variables de PHP a Javascript]]
+       - [X] [[id:6822e36a-5bbf-4cdb-8121-19d5b69d1bb8][Buenas prácticas en PHP]]
+       - [X] [[id:2f69539d-81c2-4d3f-b453-4d7df2e86915][Refactorizando código spaghetti]]
+       - [ ] [[id:42c91c38-0d10-4dd5-9ce0-af4eb542232b][Cómo obtener una solicitud al servidor con PHP]]
+       - [ ] [[id:48e82f08-a376-4b01-bba6-5d2ff60b9951][Envío de un formulario a través del método GET]]
+       - [ ] [[id:a52c2751-40e3-4fd8-b6f6-be1a30b7ccef][Subir imágenes al servidor con PHP]]
+       - [ ] [[id:8c3a6a32-71ae-471b-bd06-7cafa83664f5][Tipos de inputs]]
+       - [ ] [[id:6e6294c6-036e-478d-ab01-3335ae8f2455][Validar un formulario]]
+     - [ ] PHP CON COMPOSER
+       - [ ] [[id:559ab214-b703-4049-a202-ad9123faff25][Composer]]
+       - [ ] [[id:7782e454-cf63-4c84-bbb7-73dfb08413c6][Revisión del proyecto en Composer]]
+       - [ ] [[id:f41305c1-238c-4d80-9241-687cfdea2253][Gestión de paquetes en PHP]]
+       - [ ] [[id:7891fce3-e3bd-40f9-b648-a3b451db4a46][Cómo iniciar un proyecto en Composer]]
+       - [ ] [[id:1662373c-77fb-46c3-a04e-26be4ac84a2f][Instroducción a Json en PHP]]
+       - [ ] [[id:83cb0c1f-f7a8-406b-af7b-8031f6bf2014][Autoload]]
+       - [ ] [[id:7e67e8d1-2014-4a04-8ce6-9a7362296471][Comandos de Composer]]
+       - [ ] [[id:fc00ba1a-e2f6-4f81-95e5-6ba7523215ac][composer.lock]]
+     - [ ] MANEJO DE DATOS CON PHP
+       - [ ]
+       - [ ]
+       - [ ]
+       - [ ]
+       - [ ]
+     - [ ] PROGRAMACIÓN ORIENTADA A OBJETOS: POO
+       - [ ]
+       - [ ]
+       - [ ]
+       - [ ]
+       - [ ]
+     - [ ] PROGRAMACIÓN ORIENTADA A OBJETOS EN PHP
+       - [ ]
+       - [ ]
+       - [ ]
+       - [ ]
+       - [ ]
+     - [ ] COOKIES, SESIONES Y MODULARIZACIÓN EN PHP
+       - [ ]
+       - [ ]
+       - [ ]
+       - [ ]
+       - [ ]
+     - [ ] ENTORNOS VIRTUALES Y FUNCIONES AVANZADAS EN PHP
+       - [ ]
+       - [ ]
+       - [ ]
+       - [ ]
+       - [ ]
+     - [ ] PATRONES DE DISEÑO Y BUENAS PRÁCTICAS EN PHP
+       - [ ]
+       - [ ]
+       - [ ]
+       - [ ]
+       - [ ]
+     - [ ] api REST CON PHP
+       - [ ]
+       - [ ]
+       - [ ]
+       - [ ]
+
+*** TODO [ ] CURSO INTERMEDIO DE PHP [0/11]
+     - [ ] CREACIÓN DE BLOGS CON WORDPRESS.
+     - [ ] CREACIÓN DE TEMAS PARA WORDPRESS.
+     - [ ] CREACIÓN DE TIENDAS EN LINEA CON WOOCOMMERCE.
+     - [ ] CREACIÓN DE TEMAS PARA WOOCOMMERCE.
+     - [ ] ENTORNOS DE DESARROLLO  DEPLOYMENT EN WORDPRESS.
+     - [ ] CURSO PRÁCTICO DE WORDPRESS.
+     - [ ] CURSO PROFESIONAL DE WORDPRESS.
+     - [ ] CREACIÓN DE PLUGINS PARA WORDPRESS.
+     - [ ] CREACIÓN DE BLOQUES  EN GUTENBERG PARA WORDPRESS.
+     - [ ] FULL SITE EDITING EN WORDPRESS.
+     - [ ] APP MOBILE UTILIZANDO WOOCOMMERCE.
+
+*** TODO [ ] CURSO AVANZADO DE PHP [0/11]
+     - [ ] INTRODUCCIÓN A FRAMEWORKS DE PHP.
+     - [ ] FUNDAMENTOS DE SYMFONY 6.
+     - [ ] FORMULARIOS EN SYMFONY 6.
+     - [ ] INTRODUCCIÓN A LARAVEL.
+     - [ ] INTRODUCCIÓN A LARAVEL 8.
+     - [ ] API REST CON LARAVEL.
+     - [ ] CURSO BÁSICO DE TESTING CON PHP Y LARAVEL.
+     - [ ] DESARROLLO EN LARAVEL CON TEST DRIVEN DEVELOPMENT.
+     - [ ] SINGLE PAGE APPLICATIONES EN LARAVEL CON INTERTIA Y VUE.JS .
+     - [ ] CURSO AVANZADO DE LARAVEL.
+     - [ ] INTRODUCCIÓN AL DESPLIEGUE DE APLICACIONES.
+
+*** TODO [ ] CURSOS ADICIONALES PHP[0/8]
+     - [ ] EXPRESIONES REGULARES EN PHP.
+     - [ ] CURSO AVANZADO DE PHP.
+     - [ ] CURSO AVANZADO DE LARAVEL CON PHP.
+     - [ ] CURSO PROFESIONAL DE GIT Y GITHUB.
+     - [ ] FUNDAMENTOS DE BASES DE DATOS.
+     - [ ] INTRODUCCIÓN A LARAVEL 9.
+     - [ ] MANEJO DE DATOS CON ELOQUENT ORM.
+     - [ ] ADMINISTRACIÓN DE SERVIDORES LINUX.
+
+
+* Dates
+
+#  LocalWords:  Sintaxis Estructuras

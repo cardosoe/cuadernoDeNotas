@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       ce495b5b-c99d-434e-88af-1f4ee17b1bc1
+:END:
+#+title: Que_Es_Un_Programa
+#+date: [2022-08-14 dom 10:46]
+
+*   Es un [[id:f9b50dd3-b63c-417d-b598-4b75893143b3][Algoritmo]] ejecutado en un lenguaje de programación especifico.

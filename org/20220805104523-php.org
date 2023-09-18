@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       d6512ff7-59b9-4611-9fdd-3b87919c18f2
+:END:
+#+title: PHP
+
+* [[id:d86e0d15-e8d3-4bc1-8789-df9a400b9c32][Fundamentos_de_PHP]]
+* [[id:509a2795-034d-4e45-9985-719da42bdf97][Sintaxis_en_PHP]]
+* [[id:1e9826a4-c922-4bbb-877c-a1911f90c6e4][Debugging]]
+* [[id:c63028b3-f9b4-4c73-911c-00edfae32a5e][Comentarios]]
+* [[id:a345db32-3c90-4a35-a1ea-86a5ac83d0e8][Variables_en_PHP]]
+* [[id:e44dc017-bb75-4fc5-ae08-704e872d4ac3][Constantes_en_PHP]]
+* [[id:cbd47455-4707-48dd-b139-f800d9aafc89][Casting_en_PHP]]
+* [[id:71c00a11-b5cc-4b8f-a301-cdd6506ead3f][Operadores_lógicos_en_PHP]]
+* [[id:09e29f8f-6090-474e-b8de-23aafbd1f815][Operadores_relacionales_en_PHP]]
+* [[id:c59260df-29a4-4c82-af24-8556924ce251][Operadores_matemáticos_en_PHP]]
+* [[id:00f624ed-b54a-4926-aa36-45728fe4647c][Otros_operadores_en_PHP]]
+* [[id:14bf88be-f96f-489f-b02f-615b73afff16][Precedencia_de_operadores_en_PHP]]
+* [[id:8449ed7b-3e12-46e8-89b5-a0fa5af5dbb0][Arreglos_en_PHP]]
+* [[id:5a18809f-d8af-4cb9-88b4-54c71e9e74d3][Arreglos_asociativos]]
+* [[id:20e6b287-db78-4728-bc56-12c72d7dde75][Funciones_en_PHP]]
+* [[id:ad5c6b02-962b-40d0-ae32-bde6d9708866][Estructuras_de_control_en_PHP]]

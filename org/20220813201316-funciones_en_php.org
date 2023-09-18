@@ -1,0 +1,243 @@
+:PROPERTIES:
+:ID:       20e6b287-db78-4728-bc56-12c72d7dde75
+:END:
+#+title: Funciones_en_PHP
+#+date: [2022-08-13 sáb 20:13]
+#+filetags: php
+
+*   Qué es una función?
+Una función nos sirve para separar todo un bloque de código, nombrarla y
+utilizarla tantas veces como queramos ayudándonos a tener un código más ordenado
+y simple.
+** Sintaxis
+
+#+begin_src php
+function get_pokemon(){
+
+$numero_aleatorio = rand(1,5);
+
+switch ($numero_aleatorio)
+    {
+        case 1:
+            echo "Tu pokemon es Pikachu \n";
+            break;
+
+        case 2:
+            echo "Tu pokemon es Charmander \n";
+            break;
+
+        case 3:
+            echo "Tu pokemon es Charmeleon \n";
+            break;
+
+        default:
+            echo "Lo siento, no hay un pokemon para ti \n";
+    }
+}
+
+for ($i=0; $i<20; $i++){
+get_pokemon();
+}
+
+
+#+end_src
+
+#+RESULTS:
+#+begin_example
+Tu pokemon es Charmander
+Lo siento, no hay un pokemon para ti
+Lo siento, no hay un pokemon para ti
+Lo siento, no hay un pokemon para ti
+Tu pokemon es Pikachu
+Tu pokemon es Pikachu
+Tu pokemon es Charmander
+Lo siento, no hay un pokemon para ti
+Tu pokemon es Charmander
+Lo siento, no hay un pokemon para ti
+Lo siento, no hay un pokemon para ti
+Tu pokemon es Charmeleon
+Tu pokemon es Pikachu
+Lo siento, no hay un pokemon para ti
+Tu pokemon es Charmeleon
+Tu pokemon es Charmander
+Lo siento, no hay un pokemon para ti
+Tu pokemon es Charmander
+Tu pokemon es Pikachu
+Lo siento, no hay un pokemon para ti
+#+end_example
+
+**   [[id:dcfe4c7c-d3eb-4391-8a0b-c70919e7ca75][parámetros_en_las_funciones
+]]
+#+begin_src php
+function eres_un_maestro ($ranking){
+if ($ranking >= 20000){
+    echo "Eres un maestro! \n";}
+else {
+    echo "Todavía no alcanzaste el grado de maestro. Sigue estudiando! \n";}
+    }
+$ranking_user = (int) readline("Por favor escribe la cantidad de puntos que tienes en el ranking: ");
+eres_un_maestro($ranking_user);
+
+#+end_src
+
+#+RESULTS:
+: Por favor escribe la cantidad de puntos que tienes en el ranking: Todavía no alcanzaste el grado de maestro. Sigue estudiando!
+
+#+begin_src php
+
+    function suma($a =1, $b=1){
+    echo "La suma de $a + $b es: " . $a + $b . "\n";
+    }
+
+    // suma(1);
+    $arreglo1 = [1,2,3];
+    $arreglo2 = [4,5,6];
+
+    $resultado = [...$arreglo1, ...$arreglo2]; //array unpacking
+
+    var_dump($resultado);
+#+end_src
+
+#+RESULTS:
+#+begin_example
+array(6) {
+  [0]=>
+  int(1)
+  [1]=>
+  int(2)
+  [2]=>
+  int(3)
+  [3]=>
+  int(4)
+  [4]=>
+  int(5)
+  [5]=>
+  int(6)
+}
+#+end_example
+
+#+begin_src php
+
+    //array unpacking
+    function suma($a , $b){
+    echo "La suma de $a + $b es: " . $a + $b . "\n";
+    }
+
+    // suma(1);
+    $numeros = [1,2];
+
+    suma(...$numeros);
+
+#+end_src
+
+#+RESULTS:
+: La suma de 1 + 2 es: 3
+
+
+#+begin_src php
+
+    //función que recibe parámetros infinitos
+
+    function suma_infinita(...$params){
+        $suma = 0;
+
+        foreach ($params as $numero){
+            $suma += $numero;
+            }
+
+        echo "La sumatoria es: $suma \n";
+                }
+
+    suma_infinita(1,2);
+    suma_infinita(1,2,3);
+    suma_infinita(100,40,2,9,3);
+
+#+end_src
+
+#+RESULTS:
+: La sumatoria es: 3
+: La sumatoria es: 6
+: La sumatoria es: 154
+
+**   [[id:f42381ac-67b9-4541-a7b5-da2a17d17f1f][return]]
+
+Las funciones deben devolver algún valor/resultado a través del "RETURN"
+
+#+begin_src php
+
+    function tenistas(){
+
+        $numero_aleatorio = rand(1,4);
+        $nombre_de_tenista = "";
+
+        switch ($numero_aleatorio){
+            case 1:
+                $nombre_de_tenista = "Federer";
+
+            case 2:
+                $nombre_de_tenista = "Nadal";
+
+            case 3;
+                $nombre_de_tenista = "Djokovic";
+
+            case 4:
+                $nombre_de_tenista = "Nalbandian";
+            }
+
+           return $nombre_de_tenista;
+        }
+
+        echo tenistas();
+
+#+end_src
+
+#+RESULTS:
+: Nalbandian
+
+
+**   [[id:e5b971ed-e1be-4f8d-9db6-67b43587bbed][operador_de_nave_espacial]]
+
+Es un operador de comparación y sirve para ordenar un array.
+
+#+begin_src php
+
+    $precios_de_mercaderia = [154,433,3,53];
+
+    usort($precios_de_mercaderia, function($a, $b){
+        return $a <=> $b;
+    });
+
+    var_dump( $precios_de_mercaderia );
+
+    #+end_src
+
+#+RESULTS:
+#+begin_example
+array(4) {
+  [0]=>
+  int(3)
+  [1]=>
+  int(53)
+  [2]=>
+  int(154)
+  [3]=>
+  int(433)
+}
+#+end_example
+
+
+#+begin_src php
+
+    function obtener_hora(){
+       // date_default_timezone_set("America/Argentina/Cordoba");
+           return date("h:i:s a");
+        }
+    echo "hola! Me podrías decir qué hora es? \n";
+    echo "Claro!, Son las ". obtener_hora();
+
+
+#+end_src
+
+#+RESULTS:
+: hola! Me podrías decir qué hora es?
+: Claro!, Son las 03:18:44 am

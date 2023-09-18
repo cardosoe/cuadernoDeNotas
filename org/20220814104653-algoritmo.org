@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       f9b50dd3-b63c-417d-b598-4b75893143b3
+:END:
+#+title: Algoritmo
+#+date: [2022-08-14 dom 10:46]
+
+*   Es una sucesión de instrucciones indicadas ordenadamente que permiten realizar una tarea específica.

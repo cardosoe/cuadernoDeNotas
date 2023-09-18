@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       ad5c6b02-962b-40d0-ae32-bde6d9708866
+:END:
+#+title: Estructuras_de_control_en_PHP
+#+date: [2022-08-13 sáb 20:13]
+*   Language: php
+
+*   [[id:dcb2be36-0580-4e02-a209-e5ad29cfb397][if - else]]
+*   [[id:e1795acb-f1b4-4bd2-8ee7-48097c0df644][switch]]
+*   [[id:f632117f-54a9-4d68-80f0-c5de899ebef8][while]]
+*   [[id:ac2109d1-2ea3-4e5a-a4d4-323a1eaa3f1e][do while]]
+*   [[id:e6a384e4-d0fb-44cc-802b-c547755bf84f][for]]
+*   [[id:38373e4c-2c84-4ad3-aa12-464eacc70034][foreach]]
